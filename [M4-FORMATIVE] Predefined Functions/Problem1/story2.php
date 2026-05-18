@@ -10,6 +10,4 @@
 
 <p>Maria loves reading books and helping people.</p>
 
-index.php">Back</a>
-
 <?php require("footer.php"); ?>

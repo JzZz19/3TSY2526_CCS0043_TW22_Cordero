@@ -10,6 +10,5 @@
 
 <p>Carlo is passionate about technology and computers.</p>
 
-index.php">Back</a>
 
 <?php require("footer.php"); ?>

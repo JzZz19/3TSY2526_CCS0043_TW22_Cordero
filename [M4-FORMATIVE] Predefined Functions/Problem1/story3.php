@@ -10,6 +10,6 @@
 
 <p>Pedro enjoys playing basketball and studying.</p>
 
-index.php">Back</a>
+
 
 <?php require("footer.php"); ?>

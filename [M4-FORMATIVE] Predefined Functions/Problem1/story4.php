@@ -10,6 +10,5 @@
 
 <p>Ana is creative and likes art and design.</p>
 
-index.php">Back</a>
 
 <?php require("footer.php"); ?>

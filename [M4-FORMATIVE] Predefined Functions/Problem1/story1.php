@@ -1,6 +1,7 @@
+//story1.php
 <?php require("header.php"); ?>
 
-<h3>Story 1 - My Friend</h3>
+<h3>Story 1</h3>
 
 
 <p><b>Name:</b> Juan Dela Cruz</p>
@@ -10,6 +11,6 @@
 
 <p>Juan is a kind and hardworking person who helps his classmates.</p>
 
-index.php">Back</a>
+
 
 <?php require("footer.php"); ?>

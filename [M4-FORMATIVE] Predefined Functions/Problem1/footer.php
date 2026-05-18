@@ -1,2 +1,3 @@
+//footer.php
 </body>
 </html>
