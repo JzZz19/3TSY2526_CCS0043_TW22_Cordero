@@ -2,13 +2,21 @@
 
 <h3>Story 5</h3>
 
+<div class="story-container">
 
-<p><b>Name:</b> Carlo Diaz</p>
-<p><b>Birthday:</b> May 5, 2002</p>
-<p><b>Age:</b> 23</p>
-<p><b>Contact:</b> 09567891234</p>
+    <div class="story-info">
+        <p><b>Name:</b> Ramirez, Marcus Dylan </p>
+        <p><b>Birthday:</b> May 5, 2005 </p>
+        <p><b>Age:</b> 20</p>
+        <p><b>Contact:</b> 0955589732</p>
 
-<p>Carlo is passionate about technology and computers.</p>
+        <p>Marcus is a kind and hardworking person who always helps his classmates when they need support.</p>
+    </div>
+    
+    <div class="story-image">
+        <img src="P5.jpg" alt="Story 5 Image">
+    </div>
 
+</div>
 
 <?php require("footer.php"); ?>
