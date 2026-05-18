@@ -1,1 +1,64 @@
-/
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #dddddd;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>List of names</h2>
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Number of characters</th>
+    <th>Uppercase first character</th>
+    <th>Replace vowels with @</th>
+    <th>Position of "a"</th>
+    <th>Reverse name</th>
+</tr>
+
+<?php
+$names = [
+    "Jose Cordero", "Jonash De Guia", "Aerick Lee", "Romar Paulo", "Railey Lee",
+    "Marcus Dylan", "Fort Pabalate", "Ico", "Ozzy Florendo", "John Kenneth",
+    "Gab Reyes", "Sean Santiago", "Ryel Eduard", "Sienna", "Toby Cruz",
+    "ian cruz", "nico dela", "ella mae", "ron cruz", "mia joy"
+];
+
+foreach ($names as $name) {
+    echo "<tr>";
+
+    echo "<td>$name</td>";
+    echo "<td>" . strlen($name) . "</td>";
+    echo "<td>" . ucfirst($name) . "</td>";
+    echo "<td>" . preg_replace('/[aeiou]/i', '@', $name) . "</td>";
+
+    $pos = strpos(strtolower($name), 'a');
+    echo "<td>" . ($pos !== false ? $pos + 1 : "none") . "</td>";
+
+    echo "<td>" . strrev($name) . "</td>";
+
+    echo "</tr>";
+}
+?>
+
+</table>
+
+</body>
+</html>
