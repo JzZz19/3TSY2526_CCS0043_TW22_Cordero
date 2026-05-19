@@ -7,9 +7,8 @@
     </div>
 
     <div class="right">
-        <h2>Jose M. Cordero III
-        </h2>
-        <p>Welcome to my resume</p>
+        <h2>Career Objective</h2>
+        <p>To improve my programming skills.</p>
     </div>
 </div>
 

@@ -7,9 +7,8 @@
     </div>
 
     <div class="right">
-        <h2>Jose M. Cordero III
-        </h2>
-        <p>Welcome to my resume</p>
+        <h2>Affiliation</h2>
+        <p>Member of IT Club OR AITS</p>
     </div>
 </div>
 

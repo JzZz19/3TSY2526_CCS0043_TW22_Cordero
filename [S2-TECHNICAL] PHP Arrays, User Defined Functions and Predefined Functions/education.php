@@ -7,9 +7,9 @@
     </div>
 
     <div class="right">
-        <h2>Jose M. Cordero III
-        </h2>
-        <p>Welcome to my resume</p>
+        <h2>Educational Attainment</h2>
+        <p>College: FEU TECH </p>
+        <p>Course: BSITWMA </p>
     </div>
 </div>
 

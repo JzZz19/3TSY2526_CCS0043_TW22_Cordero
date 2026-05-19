@@ -7,9 +7,10 @@
     </div>
 
     <div class="right">
-        <h2>Jose M. Cordero III
-        </h2>
-        <p>Welcome to my resume</p>
+        <h2>Personal Information</h2>
+        <p>Name: Jose</p>
+        <p>Age: 20</p>
+        <p>Address: Taguig City</p>
     </div>
 </div>
 

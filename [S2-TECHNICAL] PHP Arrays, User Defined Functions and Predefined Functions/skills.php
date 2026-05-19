@@ -7,9 +7,8 @@
     </div>
 
     <div class="right">
-        <h2>Jose M. Cordero III
-        </h2>
-        <p>Welcome to my resume</p>
+        <h2>Skills</h2>
+        <p>HTML, CSS, PHP, JAVA, PYTHON</p>
     </div>
 </div>
 
