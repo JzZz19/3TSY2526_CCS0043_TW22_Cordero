@@ -1,0 +1,107 @@
+
+<?php
+
+function cube($s) {
+    return $s * $s * $s;
+}
+
+function rectangularPrism($l, $w, $h) {
+    return $l * $w * $h;
+}
+
+function cylinder($r, $h) {
+    return 3.14 * $r * $r * $h;
+}
+
+function sphere($r) {
+    return (4/3) * 3.14 * $r * $r * $r;
+}
+
+$s = 5;
+$l = 4; $w = 3; $h = 2;
+$r = 3;
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Volume of Shapes</title>
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .container {
+            width: 70%;
+            margin: auto;
+            border: 2px solid black;
+        }
+
+        h2 {
+            text-align: center;
+            border-bottom: 2px solid black;
+            margin: 0;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Volume of Shapes</h2>
+
+<table>
+    <tr>
+        <th>Values</th>
+        <th>Formula</th>
+        <th>Answer</th>
+    </tr>
+
+    <tr>
+        <td>s = <?php echo $s; ?></td>
+        <td>V = s³</td>
+        <td><?php echo cube($s); ?></td>
+    </tr>
+
+    <tr>
+        <td>l = <?php echo $l; ?>, w = <?php echo $w; ?>, h = <?php echo $h; ?></td>
+        <td>V = l × w × h</td>
+        <td><?php echo rectangularPrism($l, $w, $h); ?></td>
+    </tr>
+
+    <tr>
+        <td>r = <?php echo $r; ?>, h = <?php echo $h; ?></td>
+        <td>V = πr²h</td>
+        <td><?php echo cylinder($r, $h); ?></td>
+    </tr>
+
+    <tr>
+        <td>r = <?php echo $r; ?></td>
+        <td>V = 4/3 πr³</td>
+        <td><?php echo sphere($r); ?></td>
+    </tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
